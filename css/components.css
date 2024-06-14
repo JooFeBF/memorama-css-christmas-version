@@ -60,9 +60,11 @@
     perspective: 1000px; /* Permite dar el perspectiva 3d a la transicion */
 }
 
-.flip-card:hover .flip-card__inner {
+
+
+/* .flip-card:hover .flip-card__inner {
     transform: rotateY(180deg);
-}
+} */
 
 .flip-card__inner {
     position: relative;
@@ -105,3 +107,9 @@
     height: 100px;
     margin: 50px;
 }
+
+.check-box:checked ~ .flip-card__inner  {
+    transform: rotateY(180deg);
+}
+
+  
