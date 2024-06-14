@@ -20,6 +20,7 @@
 }
 
 .reset {
+    text-decoration: none;
     background-image: linear-gradient(#D45E49, #D47C49);
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -38,7 +39,7 @@
     grid-auto-rows: 150px;
     padding: 20px;
     grid-gap: 20px;
-    background-color: #c8c8c8;
+    background-image: linear-gradient(#D45E49, #D47C49);
     border-radius: 16px;
     align-items: center;
     align-content: center;
@@ -82,8 +83,8 @@
 }
 
 .flip-card__inner__front{
-    background-color: #fff;
-    color: #000;
+    background-color: #1D2039;
+    color: #fff;
 }
 
 .flip-card__inner__back{
@@ -99,3 +100,8 @@
     height: 100%;
 }
 
+.checkbox-container{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}

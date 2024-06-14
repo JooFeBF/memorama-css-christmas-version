@@ -4,6 +4,7 @@ body {
 }
 
 body {
+    background-color: #E7E7E7;
     min-width: 100%;
     min-height: 100vh;
     padding: 10px;
@@ -23,9 +24,4 @@ body {
   
   time {
     color: rgb(80, 80, 80);
-  }
-
-  input {
-    position: absolute;
-    bottom: 20px;
   }
