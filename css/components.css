@@ -1,0 +1,101 @@
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D2039;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+}
+
+.logo {
+    color: white;
+}
+
+.game {
+    color: #CD583C;
+}
+
+.reset {
+    background-image: linear-gradient(#D45E49, #D47C49);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.memorama-container {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 20px;
+    background-color: #c8c8c8;
+    border-radius: 16px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    max-width: 613px;
+}
+
+.flip-card{
+    background-color: #c8c8c8;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    perspective: 1000px; /* Permite dar el perspectiva 3d a la transicion */
+}
+
+.flip-card:hover .flip-card__inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s  ease-in-out; /* Parametro de la transicion */
+    transform-style: preserve-3d; 
+}
+ 
+
+.flip-card__inner__front, .flip-card__inner__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden ; /* Sirve para ocultar la capa trasera para que no se interponga con la visibilidad de la capa delantera */
+}
+
+.flip-card__inner__front{
+    background-color: #fff;
+    color: #000;
+}
+
+.flip-card__inner__back{
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.flip-card__inner img {
+    height: 100%;
+}
+
