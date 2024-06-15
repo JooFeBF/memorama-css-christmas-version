@@ -1,20 +1,19 @@
-/* Desactivar el click cuando las dos cartas son iguales*/
-#McQueen1:checked ~ #McQueen2:checked ~ .mc-queen-card-1,
-#McQueen1:checked ~ #McQueen2:checked ~ .mc-queen-card-2,
-#Mate1:checked ~ #Mate2:checked ~ .mate-card-1,
-#Mate1:checked ~ #Mate2:checked ~ .mate-card-2,
-#Luigi1:checked ~ #Luigi2:checked ~ .luigi-card-1,
-#Luigi1:checked ~ #Luigi2:checked ~ .luigi-card-2,
-#Sally1:checked ~ #Sally2:checked ~ .sally-card-1,
-#Sally1:checked ~ #Sally2:checked ~ .sally-card-2,
-#Guido1:checked ~ #Guido2:checked ~ .guido-card-1,
-#Guido1:checked ~ #Guido2:checked ~ .guido-card-2,
-#Jackson1:checked ~ #Jackson2:checked ~ .jackson-card-1,
-#Jackson1:checked ~ #Jackson2:checked ~ .jackson-card-2,
-#Hicks1:checked ~ #Hicks2:checked ~ .hicks-card-1,
-#Hicks1:checked ~ #Hicks2:checked ~ .hicks-card-2,
-#Fillmore1:checked ~ #Fillmore2:checked ~ .fillmore-card-1,
-#Fillmore1:checked ~ #Fillmore2:checked ~ .fillmore-card-2
+#McQueen1:checked + #McQueen2:checked ~ .mc-queen-card-1,
+#McQueen1:checked + #McQueen2:checked ~ .mc-queen-card-2,
+#Mate1:checked + #Mate2:checked ~ .mate-card-1,
+#Mate1:checked + #Mate2:checked ~ .mate-card-2,
+#Luigi1:checked + #Luigi2:checked ~ .luigi-card-1,
+#Luigi1:checked + #Luigi2:checked ~ .luigi-card-2,
+#Sally1:checked + #Sally2:checked ~ .sally-card-1,
+#Sally1:checked + #Sally2:checked ~ .sally-card-2,
+#Guido1:checked + #Guido2:checked ~ .guido-card-1,
+#Guido1:checked + #Guido2:checked ~ .guido-card-2,
+#Jackson1:checked + #Jackson2:checked ~ .jackson-card-1,
+#Jackson1:checked + #Jackson2:checked ~ .jackson-card-2,
+#Hicks1:checked + #Hicks2:checked ~ .hicks-card-1,
+#Hicks1:checked + #Hicks2:checked ~ .hicks-card-2,
+#Fillmore1:checked + #Fillmore2:checked ~ .fillmore-card-1,
+#Fillmore1:checked + #Fillmore2:checked ~ .fillmore-card-2
   {
   pointer-events: none;
 }

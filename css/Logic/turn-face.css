@@ -1,4 +1,3 @@
-/* Voltear la carta cuando se clickea */
 #McQueen1:checked ~ .mc-queen-card-1 .flip-card__inner,
 #McQueen2:checked ~ .mc-queen-card-2 .flip-card__inner,
 #Mate1:checked ~ .mate-card-1 .flip-card__inner,
@@ -18,4 +17,3 @@
  {
   transform: rotateY(180deg);
 }
-

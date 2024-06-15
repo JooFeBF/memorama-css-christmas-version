@@ -127,3 +127,9 @@
 .win-modal {
     display: none;
 }
+
+@media screen and (max-width: 550px) {
+    .memorama-container {
+        gap: 10px;
+    }
+}
