@@ -10,7 +10,11 @@
     padding: 10px;
     position: absolute;
 }
-
+.check-box {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
 .logo {
     color: white;
 }
@@ -49,22 +53,16 @@
 }
 
 .flip-card{
-    background-color: #c8c8c8;
+    display: flex;
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    perspective: 1000px; /* Permite dar el perspectiva 3d a la transicion */
+    user-select: none;
+    cursor: pointer;
 }
-
-
-
-/* .flip-card:hover .flip-card__inner {
-    transform: rotateY(180deg);
-} */
 
 .flip-card__inner {
     position: relative;
@@ -77,39 +75,57 @@
 }
  
 
-.flip-card__inner__front, .flip-card__inner__back {
+.flip-card__inner-front, .flip-card__inner-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden ; /* Sirve para ocultar la capa trasera para que no se interponga con la visibilidad de la capa delantera */
 }
 
-.flip-card__inner__front{
+.flip-card__inner-front{
     background-color: #1D2039;
     color: #fff;
 }
 
-.flip-card__inner__back{
+.flip-card__inner-back{
     background-color: dodgerblue;
     color: white;
-    transform: rotateY(180deg);
     display: flex;
     justify-content: center;
+    transform: rotateY(180deg);
+    backface-visibility: hidden ; /* Sirve para ocultar la capa trasera para que no se interponga con la visibilidad de la capa delantera */
     align-items: center;
 }   
 
 .flip-card__inner img {
+    user-select: none;
     height: 100%;
 }
-
-.checkbox-container{
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-}
-
-.check-box:checked ~ .flip-card__inner  {
-    transform: rotateY(180deg);
-}
-
   
+.error-information {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 16px;
+    background-image: linear-gradient(#D45E49, #D47C49);
+    color: #fff; 
+}
+
+.start-modal, .win-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#D45E49, #D47C49);
+    color: #fff;
+}
+
+.win-modal {
+    z-index: 100;
+    display: none;
+}

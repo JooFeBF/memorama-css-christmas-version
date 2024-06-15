@@ -1,0 +1,21 @@
+/* Voltear la carta cuando se clickea */
+#McQueen1:checked ~ .mc-queen-card-1 .flip-card__inner,
+#McQueen2:checked ~ .mc-queen-card-2 .flip-card__inner,
+#Mate1:checked ~ .mate-card-1 .flip-card__inner,
+#Mate2:checked ~ .mate-card-2 .flip-card__inner,
+#Luigi1:checked ~ .luigi-card-1 .flip-card__inner,
+#Luigi2:checked ~ .luigi-card-2 .flip-card__inner,
+#Sally1:checked ~ .sally-card-1 .flip-card__inner,
+#Sally2:checked ~ .sally-card-2 .flip-card__inner,
+#Guido1:checked ~ .guido-card-1 .flip-card__inner,
+#Guido2:checked ~ .guido-card-2 .flip-card__inner,
+#Jackson1:checked ~ .jackson-card-1 .flip-card__inner,
+#Jackson2:checked ~ .jackson-card-2 .flip-card__inner,
+#Hicks1:checked ~ .hicks-card-1 .flip-card__inner,
+#Hicks2:checked ~ .hicks-card-2 .flip-card__inner,
+#Fillmore1:checked ~ .fillmore-card-1 .flip-card__inner,
+#Fillmore2:checked ~ .fillmore-card-2 .flip-card__inner
+ {
+  transform: rotateY(180deg);
+}
+

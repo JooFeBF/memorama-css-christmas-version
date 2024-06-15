@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/generic.css">
     <link rel="stylesheet" href="./css/elements.css">
+    <link rel="stylesheet" href="./css/Logic/turn-face.css">
+    <link rel="stylesheet" href="./css/Logic/block-equal-cards.css">
+    <link rel="stylesheet" href="./css/Logic/block-card.css">
+    <link rel="stylesheet" href="./css/Logic/randomize-game.css">
+    <link rel="stylesheet" href="./css/Logic/victory.css">
     <title>Memorama CSS</title>
 </head>
 <body>
@@ -22,10 +27,24 @@
             </a>
         </div>
     </nav>
-    <div >
-        <div class="checkbox-container">
-            
-           
+    <div>
+        <input class="check-box" type="checkbox" id="game1"/>
+        <input class="check-box" type="checkbox" id="game2"/>
+        <input class="check-box" type="checkbox" id="game3"/>
+        <input class="check-box" type="checkbox" id="game4"/>
+        <input class="check-box" type="checkbox" id="game5"/>
+        <input class="check-box" type="checkbox" id="game6"/>
+        
+        <label class="start-modal" for="game1">Haz click varias veces para jugar</label>
+        <label class="start-modal" for="game2">Haz click varias veces para jugar</label>
+        <label class="start-modal" for="game3">Haz click varias veces para jugar</label>
+        <label class="start-modal" for="game4">Haz click varias veces para jugar</label>
+        <label class="start-modal" for="game5">Haz click varias veces para jugar</label>
+        <label class="start-modal" for="game6">Haz click varias veces para jugar</label>
+        
+        <div class="memorama-container">
+            <input class="check-box" type="checkbox" id="McQueen1">
+            <input class="check-box" type="checkbox" id="McQueen2">
             <input class="check-box" type="checkbox" id="Mate1">
             <input class="check-box" type="checkbox" id="Mate2">
             <input class="check-box" type="checkbox" id="Luigi1">
@@ -40,109 +59,108 @@
             <input class="check-box" type="checkbox" id="Hicks2">
             <input class="check-box" type="checkbox" id="Fillmore1">
             <input class="check-box" type="checkbox" id="Fillmore2">
-        </div>
-        <div class="memorama-container">
-            <label  class="flip-card" for="McQueen1">
-                <input class="check-box" type="checkbox" id="McQueen1">
+            <a href="index.html" class="win-modal win-modal-show">Haz ganado, haz click para jugar de nuevo</a>
+
+            <label  class="flip-card mc-queen-card-1" for="McQueen1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/shinji.jfif" alt="mcqueen"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/McQueen.jpg" alt="mcqueen"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="McQueen2">
-                <input class="check-box" type="checkbox" id="McQueen2">
+            <label  class="flip-card mc-queen-card-2" for="McQueen2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Cars-3-Lightning-McQueen-696x378.webp" alt="mcqueen"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/McQueen.jpg" alt="mcqueen"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Mate1">
+            <label  class="flip-card mate-card-1" for="Mate1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Mate.webp" alt="mate"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Mate.jpg" alt="mate"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Mate2">
+            <label  class="flip-card mate-card-2" for="Mate2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Mate.webp" alt="mate"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Mate.jpg" alt="mate"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Luigi1">
+            <label  class="flip-card luigi-card-1" for="Luigi1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/LuigiCars3.webp" alt="luigi"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Luigi.jpg" alt="luigi"></div>
                 </div>
             </label>
             
-            <label  class="flip-card" for="Luigi2">
+            <label  class="flip-card luigi-card-2" for="Luigi2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/LuigiCars3.webp" alt="luigi"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Luigi.jpg" alt="luigi"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Sally1">
+            <label  class="flip-card sally-card-1" for="Sally1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Sally.webp" alt="sally"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Sally.jpg" alt="sally"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Sally2">
+            <label  class="flip-card sally-card-2" for="Sally2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Sally.webp" alt="sally"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Sally.jpg" alt="sally"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Guido1">
+            <label  class="flip-card guido-card-1" for="Guido1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/GuidoCars3.webp" alt="guido"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Guido.jpg" alt="guido"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Guido2">
+            <label  class="flip-card guido-card-2" for="Guido2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/GuidoCars3.webp" alt="guido"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Guido.jpg" alt="guido"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Jackson1">
+            <label  class="flip-card jackson-card-1" for="Jackson1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Jackson.webp" alt="jackson"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Jackson.jpg" alt="jackson"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Jackson2">
+            <label  class="flip-card jackson-card-2" for="Jackson2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/Jackson.webp" alt="jackson"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Jackson.jpg" alt="jackson"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Hicks1">
+            <label  class="flip-card hicks-card-1" for="Hicks1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/chick-hicks.webp" alt="hicks"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Hicks.jpg" alt="hicks"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Hicks2">
+            <label  class="flip-card hicks-card-2" for="Hicks2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/chick-hicks.webp" alt="hicks"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Hicks.jpg" alt="hicks"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Fillmore1">
+            <label  class="flip-card fillmore-card-1" for="Fillmore1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/fillmore.webp" alt="fillmore"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Fillmore.jpg" alt="fillmore"></div>
                 </div>
             </label>
-            <label  class="flip-card" for="Fillmore2">
+            <label  class="flip-card fillmore-card-2" for="Fillmore2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner__front">Titulo</div>
-                    <div class="flip-card__inner__back"><img src="./assets/fillmore.webp" alt="fillmore"></div>
+                    <div class="flip-card__inner-front"></div>
+                    <div class="flip-card__inner-back"><img src="./assets/Fillmore.jpg" alt="fillmore"></div>
                 </div>
             </label>    
             
         </div>
     </div>
+    <strong class="error-information">Si selecciona las cartas incorrectas debe hacer click en una para poder escoger otra</strong>
 </body>
 </html>
