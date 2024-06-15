@@ -1,399 +1,399 @@
 /* ------------------------------------- Bloquear todas las cartas cuando dos no son iguales -------------------------------------- */
-/* --------------------------------------------------- Patron para #card1 --------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:checked ~ #Mate2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(3)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:not(:checked) ~ #Mate2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(4)),
+/* --------------------------------------------------- Patron para #McQueen1 --------------------------------------------------- */
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:checked ~ #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:not(:checked) ~ #Mate2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(5)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(6)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(7)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(8)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(9)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(10)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(11)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(12)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(13)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(14)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(15)),
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(16)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
 
 
-/* --------------------------------------------------- Patron para #card2 --------------------------------------------------- */
+/* --------------------------------------------------- Patron para #McQueen2 --------------------------------------------------- */
 
 
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:checked ~ #Mate2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(3)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:not(:checked) ~ #Mate2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(4)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:checked ~ #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:not(:checked) ~ #Mate2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(5)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(6)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(7)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(8)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(9)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(10)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(11)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(12)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(13)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(14)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(15)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(16)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Mate1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:checked ~ #Mate2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(3)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:checked ~ #Mate2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(3)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:checked ~ #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:checked ~ #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(5)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(6)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(7)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(8)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(9)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(10)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(11)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(12)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(13)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(14)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(15)),
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(16))
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16))
 
 
 /* --------------------------------------------------- Patron para #Mate2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:not(:checked) ~ #Mate2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(4)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:not(:checked) ~ #Mate2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(4)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Mate1:not(:checked) ~ #Mate2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Mate1:not(:checked) ~ #Mate2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(5)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(6)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(7)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(8)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(9)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(10)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(11)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(12)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(13)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(14)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(15)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(16)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Luigi1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(5)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(5)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(5)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(5)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:checked ~ #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(7)),
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(8)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(9)),
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(10)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(11)),
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(12)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(13)),
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(14)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(15)),
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(16)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Luigi2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(6)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(6)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(6)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(6)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Luigi1:not(:checked) ~ #Luigi2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(7)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(8)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(9)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(10)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(11)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(12)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(13)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(14)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(15)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(16)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Sally1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(7)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(7)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(7)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(7)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(7)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ label:not(:nth-of-type(6)):not(:nth-of-type(7)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:checked ~ #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(7)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(9)),
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(10)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(11)),
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(12)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(13)),
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(14)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(15)),
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(16)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Sally2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(8)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(8)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(8)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(8)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(8)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ label:not(:nth-of-type(6)):not(:nth-of-type(8)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Sally1:not(:checked) ~ #Sally2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(8)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(9)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(10)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(11)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(12)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(13)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(14)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(15)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(16)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Guido1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(9)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(9)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(9)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(9)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(9)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(6)):not(:nth-of-type(9)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(9)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(9)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ label:not(:nth-of-type(8)):not(:nth-of-type(9)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:checked ~ #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(9)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(11)),
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(12)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(13)),
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(14)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(15)),
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(16)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Guido2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(10)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(10)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(10)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(10)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(10)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(6)):not(:nth-of-type(10)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(10)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ label:not(:nth-of-type(8)):not(:nth-of-type(10)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Guido1:not(:checked) ~ #Guido2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(10)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(11)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(12)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(13)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(14)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(15)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(16)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Jackson1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(11)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(11)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(11)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(11)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(11)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(6)):not(:nth-of-type(11)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(11)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(11)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(8)):not(:nth-of-type(11)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(11)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(11)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ label:not(:nth-of-type(10)):not(:nth-of-type(11)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:checked ~ #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(11)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(13)),
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(14)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(15)),
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(16)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Jackson2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(12)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(12)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(12)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(12)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(12)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(6)):not(:nth-of-type(12)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(12)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(8)):not(:nth-of-type(12)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(12)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ label:not(:nth-of-type(10)):not(:nth-of-type(12)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Jackson1:not(:checked) ~ #Jackson2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(12)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(13)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(14)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(15)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(16)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Hicks1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(13)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(13)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(13)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(13)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(13)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(6)):not(:nth-of-type(13)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(13)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(8)):not(:nth-of-type(13)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(13)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(10)):not(:nth-of-type(13)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(13)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ label:not(:nth-of-type(12)):not(:nth-of-type(13)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:checked ~ #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(13)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(13)):not(:nth-of-type(15)),
-#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(13)):not(:nth-of-type(16)),
+#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
+#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Hicks2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(14)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(14)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(14)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(14)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(14)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(6)):not(:nth-of-type(14)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(14)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(8)):not(:nth-of-type(14)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(14)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(10)):not(:nth-of-type(14)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(14)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ label:not(:nth-of-type(12)):not(:nth-of-type(14)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Hicks1:not(:checked) ~ #Hicks2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(14)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(14)):not(:nth-of-type(15)),
-#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(14)):not(:nth-of-type(16)),
+#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
+#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)),
 
 
 /* --------------------------------------------------- Patron para #Fillmore1 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(1)):not(:nth-of-type(15)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(2)):not(:nth-of-type(15)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(3)):not(:nth-of-type(15)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(4)):not(:nth-of-type(15)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(5)):not(:nth-of-type(15)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(6)):not(:nth-of-type(15)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(7)):not(:nth-of-type(15)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(8)):not(:nth-of-type(15)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(9)):not(:nth-of-type(15)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(10)):not(:nth-of-type(15)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(11)):not(:nth-of-type(15)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(12)):not(:nth-of-type(15)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(15)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(13)):not(:nth-of-type(15)),
-#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ label:not(:nth-of-type(14)):not(:nth-of-type(15)),
+#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
+#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:checked ~ #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
 
 
 /* --------------------------------------------------- Patron para #Fillmore2 --------------------------------------------------- */
 
 
-#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(1)):not(:nth-of-type(16)),
-#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(2)):not(:nth-of-type(16)),
+#McQueen1:checked ~ #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
+#McQueen1:not(:checked) ~ #McQueen2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(3)):not(:nth-of-type(16)),
-#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(4)):not(:nth-of-type(16)),
+#Mate1:checked ~ #Mate2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16)),
+#Mate1:not(:checked) ~ #Mate2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(5)):not(:nth-of-type(16)),
-#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(6)):not(:nth-of-type(16)),
+#Luigi1:checked ~ #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
+#Luigi1:not(:checked) ~ #Luigi2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(7)):not(:nth-of-type(16)),
-#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(8)):not(:nth-of-type(16)),
+#Sally1:checked ~ #Sally2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
+#Sally1:not(:checked) ~ #Sally2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(9)):not(:nth-of-type(16)),
-#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(10)):not(:nth-of-type(16)),
+#Guido1:checked ~ #Guido2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
+#Guido1:not(:checked) ~ #Guido2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(11)):not(:nth-of-type(16)),
-#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(12)):not(:nth-of-type(16)),
+#Jackson1:checked ~ #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
+#Jackson1:not(:checked) ~ #Jackson2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(16)),
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(13)):not(:nth-of-type(16)),
-#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ label:not(:nth-of-type(14)):not(:nth-of-type(16)) {
+#Hicks1:checked ~ #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
+#Hicks1:not(:checked) ~ #Hicks2:checked ~ #Fillmore1:not(:checked) ~ #Fillmore2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)) {
   pointer-events: none;
 }
