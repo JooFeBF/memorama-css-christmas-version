@@ -95,6 +95,7 @@
 }   
 
 .flip-card__inner img {
+    pointer-events: none;
     user-select: none;
     height: 100%;
 }
