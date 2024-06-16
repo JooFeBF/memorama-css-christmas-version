@@ -1,42 +1,42 @@
 @keyframes randomize-cards {
   0% {
     grid-template-areas: 
-      "luigi-1 mc-queen-2 mate-1 sally-2"
-      "guido-1 jackson-2 hicks-1 fillmore-2"
-      "mc-queen-1 mate-2 sally-1 luigi-2"
-      "jackson-1 guido-2 fillmore-1 hicks-2"
+      "nino-dios-1 maria-2 jose-1 melchor-2"
+      "gaspar-1 baltazar-2 pastor-1 mula-buey-2"
+      "maria-1 jose-2 melchor-1 nino-dios-2"
+      "baltazar-1 gaspar-2 mula-buey-1 pastor-2"
       ;
   }
   25% {
     grid-template-areas: 
-      "mc-queen-1 luigi-2 sally-1 mate-2"
-      "guido-1 hicks-2 fillmore-1 jackson-2"
-      "luigi-1 mc-queen-2 mate-1 sally-2"
-      "hicks-1 guido-2 jackson-1 fillmore-2"
+      "maria-1 nino-dios-2 melchor-1 jose-2"
+      "gaspar-1 pastor-2 mula-buey-1 baltazar-2"
+      "nino-dios-1 maria-2 jose-1 melchor-2"
+      "pastor-1 gaspar-2 baltazar-1 mula-buey-2"
       ;
   }
   50% {
     grid-template-areas: 
-      "guido-1 hicks-2 fillmore-1 jackson-2"
-      "mc-queen-1 luigi-2 sally-1 mate-2"
-      "hicks-1 guido-2 jackson-1 fillmore-2"
-      "luigi-1 mc-queen-2 mate-1 sally-2"
+      "gaspar-1 pastor-2 mula-buey-1 baltazar-2"
+      "maria-1 nino-dios-2 melchor-1 jose-2"
+      "pastor-1 gaspar-2 baltazar-1 mula-buey-2"
+      "nino-dios-1 maria-2 jose-1 melchor-2"
       ;
   }
   75% {
     grid-template-areas: 
-      "hicks-1 guido-2 jackson-1 fillmore-2"
-      "guido-1 hicks-2 fillmore-1 jackson-2"
-      "mc-queen-1 luigi-2 sally-1 mate-2"
-      "luigi-1 mc-queen-2 mate-1 sally-2"
+      "pastor-1 gaspar-2 baltazar-1 mula-buey-2"
+      "gaspar-1 pastor-2 mula-buey-1 baltazar-2"
+      "maria-1 nino-dios-2 melchor-1 jose-2"
+      "nino-dios-1 maria-2 jose-1 melchor-2"
       ;
   }
   100% {
     grid-template-areas: 
-      "sally-1 mate-2 mc-queen-1 luigi-2"
-      "fillmore-1 jackson-2 guido-1 hicks-2"
-      "mate-1 sally-2 luigi-1 mc-queen-2"
-      "jackson-1 fillmore-2 hicks-1 guido-2"
+      "melchor-1 jose-2 maria-1 nino-dios-2"
+      "mula-buey-1 baltazar-2 gaspar-1 pastor-2"
+      "jose-1 melchor-2 nino-dios-1 maria-2"
+      "baltazar-1 mula-buey-2 pastor-1 gaspar-2"
       ;
   }
 }
@@ -45,75 +45,75 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   min-height: 600px;
   grid-template-areas: 
-    "mc-queen-1 mc-queen-2 mate-1 mate-2"
-    "luigi-1 luigi-2 sally-1 sally-2"
-    "guido-1 guido-2 jackson-1 jackson-2"
-    "hicks-1 hicks-2 fillmore-1 fillmore-2"
+    "maria-1 maria-2 jose-1 jose-2"
+    "nino-dios-1 nino-dios-2 melchor-1 melchor-2"
+    "gaspar-1 gaspar-2 baltazar-1 baltazar-2"
+    "pastor-1 pastor-2 mula-buey-1 mula-buey-2"
   ;
   animation: randomize-cards .1s infinite;
 }
 
-.mc-queen-card-1 {
-  grid-area: mc-queen-1;
+.maria-card-1 {
+  grid-area: maria-1;
 }
 
-.mc-queen-card-2 {
-  grid-area: mc-queen-2;
+.maria-card-2 {
+  grid-area: maria-2;
 }
 
-.mate-card-1 {
-  grid-area: mate-1;
+.jose-card-1 {
+  grid-area: jose-1;
 }
 
-.mate-card-2 {
-  grid-area: mate-2;
+.jose-card-2 {
+  grid-area: jose-2;
 }
-.luigi-card-1 {
-  grid-area: luigi-1;
-}
-
-.luigi-card-2 {
-  grid-area: luigi-2;
+.nino-dios-card-1 {
+  grid-area: nino-dios-1;
 }
 
-.sally-card-1 {
-  grid-area: sally-1;
+.nino-dios-card-2 {
+  grid-area: nino-dios-2;
 }
 
-.sally-card-2 {
-  grid-area: sally-2;
+.melchor-card-1 {
+  grid-area: melchor-1;
 }
 
-.guido-card-1 {
-  grid-area: guido-1;
+.melchor-card-2 {
+  grid-area: melchor-2;
 }
 
-.guido-card-2 {
-  grid-area: guido-2;
+.gaspar-card-1 {
+  grid-area: gaspar-1;
 }
 
-.jackson-card-1 {
-  grid-area: jackson-1;
+.gaspar-card-2 {
+  grid-area: gaspar-2;
 }
 
-.jackson-card-2 {
-  grid-area: jackson-2;
+.baltazar-card-1 {
+  grid-area: baltazar-1;
 }
 
-.hicks-card-1 {
-  grid-area: hicks-1;
+.baltazar-card-2 {
+  grid-area: baltazar-2;
 }
 
-.hicks-card-2 {
-  grid-area: hicks-2;
+.pastor-card-1 {
+  grid-area: pastor-1;
 }
 
-.fillmore-card-1 {
-  grid-area: fillmore-1;
+.pastor-card-2 {
+  grid-area: pastor-2;
 }
 
-.fillmore-card-2 {
-  grid-area: fillmore-2;
+.mula-buey-card-1 {
+  grid-area: mula-buey-1;
+}
+
+.mula-buey-card-2 {
+  grid-area: mula-buey-2;
 }
 
 #game-randomizer:checked ~ .memorama-container {

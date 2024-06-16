@@ -1,794 +1,794 @@
-/* --> #McQueen1 */
+/* --> #Maria1 */
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:checked + #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:checked + #Jose2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:not(:checked) + #Mate2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:not(:checked) + #Jose2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #McQueen2 */
+/* --> #Maria2 */
 
 
 
 
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:checked + #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:checked + #Jose2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:not(:checked) + #Mate2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:not(:checked) + #Jose2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Mate1 */
+/* --> #Jose1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:checked + #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:checked + #Jose2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:checked + #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:checked + #Jose2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(3)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16))
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16))
 
 
 
 
 
-/* --> #Mate2 */
+/* --> #Jose2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:not(:checked) + #Mate2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:not(:checked) + #Jose2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(4)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:not(:checked) + #Mate2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:not(:checked) + #Jose2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(4)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Luigi1 */
+/* --> #Nino-Dios1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(5)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(5)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(5)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(5)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Luigi2 */
+/* --> #Nino-Dios2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(6)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(6)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(6)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(6)),
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(7)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(7)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(8)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(8)),
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(9)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(9)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(10)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(10)),
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(11)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(11)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(12)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(12)),
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(13)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(13)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(14)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(14)),
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(15)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(15)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(16)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Sally1 */
+/* --> #Melchor1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(7)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(7)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(7)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(7)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(7)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(7)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(7)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Sally2 */
+/* --> #Melchor2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(8)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(8)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(8)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(8)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(8)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(8)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(8)),
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(9)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(9)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(10)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(10)),
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(11)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(11)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(12)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(12)),
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(13)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(13)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(14)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(14)),
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(15)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(15)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(16)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Guido1 */
+/* --> #Gaspar1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(9)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(9)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(9)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(9)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(9)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(9)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(9)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(9)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(9)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(9)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Guido2 */
+/* --> #Gaspar2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(10)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(10)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(10)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(10)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(10)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(10)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(10)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(10)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(10)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(10)),
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(11)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(11)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(12)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(12)),
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(13)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(13)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(14)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(14)),
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(15)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(15)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(16)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Jackson1 */
+/* --> #Baltazar1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(11)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(11)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(11)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(11)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(11)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(11)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(11)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(11)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(11)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(11)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(11)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(11)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(11)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Jackson2 */
+/* --> #Baltazar2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(12)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(12)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(12)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(12)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(12)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(12)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(12)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(12)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(12)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(12)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(12)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(12)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(12)),
 
  
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(13)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(13)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(14)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(14)),
 
  
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(15)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(15)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(16)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Hicks1 */
+/* --> #Pastor1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(13)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(13)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(13)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(13)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(13)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(13)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(13)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(13)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(13)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(13)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(13)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(13)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(13)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(13)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(13)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(13)),
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Hicks2 */
+/* --> #Pastor2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(14)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(14)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(14)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(14)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(14)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(14)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(14)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(14)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(14)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(14)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(14)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(14)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(14)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(14)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(14)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(14)),
 
  
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)),
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)),
 
 
 
 
 
-/* --> #Fillmore1 */
+/* --> #Mula-Buey1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(15)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(15)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(15)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(15)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(15)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(15)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(15)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(15)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(15)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(15)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(15)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(15)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(15)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(15)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(15)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(15)),
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(15)),
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(15)),
 
 
 
 
 
-/* --> #Fillmore2 */
+/* --> #Mula-Buey2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(16)),
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(2)):not(:nth-of-type(16)),
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16)),
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(3)):not(:nth-of-type(16)),
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(4)):not(:nth-of-type(16)),
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(5)):not(:nth-of-type(16)),
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(16)),
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(6)):not(:nth-of-type(16)),
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(7)):not(:nth-of-type(16)),
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(16)),
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(8)):not(:nth-of-type(16)),
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(9)):not(:nth-of-type(16)),
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(16)),
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(10)):not(:nth-of-type(16)),
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(11)):not(:nth-of-type(16)),
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(16)),
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(12)):not(:nth-of-type(16)),
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(13)):not(:nth-of-type(16)),
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)) {
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .flip-card:not(:nth-of-type(14)):not(:nth-of-type(16)) {
 
   pointer-events: none;
 

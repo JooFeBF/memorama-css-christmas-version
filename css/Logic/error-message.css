@@ -1,794 +1,794 @@
-/* --> #McQueen1 */
+/* --> #Maria1 */
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:checked + #Mate2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:checked + #Jose2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:not(:checked) + #Mate2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:not(:checked) + #Jose2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #McQueen2 */
+/* --> #Maria2 */
 
 
 
 
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:checked + #Mate2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:checked + #Jose2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:not(:checked) + #Mate2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:not(:checked) + #Jose2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Mate1 */
+/* --> #Jose1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:checked + #Mate2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:checked + #Jose2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:checked + #Mate2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:checked + #Jose2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Mate2 */
+/* --> #Jose2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:not(:checked) + #Mate2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Jose1:not(:checked) + #Jose2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Mate1:not(:checked) + #Mate2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Jose1:not(:checked) + #Jose2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Luigi1 */
+/* --> #Nino-Dios1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:checked + #Luigi2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Luigi2 */
+/* --> #Nino-Dios2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Luigi1:not(:checked) + #Luigi2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ .error-message,
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Sally1 */
+/* --> #Melchor1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:checked + #Sally2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:checked + #Melchor2:not(:checked) ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Sally2 */
+/* --> #Melchor2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Sally1:not(:checked) + #Sally2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Melchor1:not(:checked) + #Melchor2:checked ~ .error-message,
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Guido1 */
+/* --> #Gaspar1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:checked + #Guido2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:checked + #Gaspar2:not(:checked) ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Guido2 */
+/* --> #Gaspar2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Guido1:not(:checked) + #Guido2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Gaspar1:not(:checked) + #Gaspar2:checked ~ .error-message,
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Jackson1 */
+/* --> #Baltazar1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:checked + #Jackson2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:checked + #Baltazar2:not(:checked) ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Jackson2 */
+/* --> #Baltazar2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Jackson1:not(:checked) + #Jackson2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Baltazar1:not(:checked) + #Baltazar2:checked ~ .error-message,
 
  
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Hicks1 */
+/* --> #Pastor1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:checked + #Hicks2:not(:checked) ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:checked + #Pastor2:not(:checked) ~ .error-message,
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Hicks2 */
+/* --> #Pastor2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Hicks1:not(:checked) + #Hicks2:checked ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Pastor1:not(:checked) + #Pastor2:checked ~ .error-message,
 
  
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
 
 
 
 
-/* --> #Fillmore1 */
+/* --> #Mula-Buey1 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:checked + #Fillmore2:not(:checked) ~ .error-message,
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:checked + #Mula-Buey2:not(:checked) ~ .error-message,
 
 
 
 
 
-/* --> #Fillmore2 */
+/* --> #Mula-Buey2 */
 
 
 
 
 
-#McQueen1:checked + #McQueen2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Maria1:checked + #Maria2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#McQueen1:not(:checked) + #McQueen2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Maria1:not(:checked) + #Maria2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Mate1:checked + #Mate2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Jose1:checked + #Jose2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Mate1:not(:checked) + #Mate2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Jose1:not(:checked) + #Jose2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Luigi1:checked + #Luigi2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Nino-Dios1:checked + #Nino-Dios2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Luigi1:not(:checked) + #Luigi2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Nino-Dios1:not(:checked) + #Nino-Dios2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Sally1:checked + #Sally2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Melchor1:checked + #Melchor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Sally1:not(:checked) + #Sally2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Melchor1:not(:checked) + #Melchor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Guido1:checked + #Guido2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Gaspar1:checked + #Gaspar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Guido1:not(:checked) + #Guido2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Gaspar1:not(:checked) + #Gaspar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Jackson1:checked + #Jackson2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Baltazar1:checked + #Baltazar2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Jackson1:not(:checked) + #Jackson2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Baltazar1:not(:checked) + #Baltazar2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
  
 
-#Hicks1:checked + #Hicks2:not(:checked) ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message,
+#Pastor1:checked + #Pastor2:not(:checked) ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message,
 
-#Hicks1:not(:checked) + #Hicks2:checked ~ #Fillmore1:not(:checked) + #Fillmore2:checked ~ .error-message {
+#Pastor1:not(:checked) + #Pastor2:checked ~ #Mula-Buey1:not(:checked) + #Mula-Buey2:checked ~ .error-message {
   display: flex;
   animation: display 0.5s;
 }
