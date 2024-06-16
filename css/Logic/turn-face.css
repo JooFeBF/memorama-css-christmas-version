@@ -17,3 +17,13 @@
  {
   transform: rotateY(180deg);
 }
+
+.flip-card__inner {
+  transition: transform 0.3s  ease-in-out;
+  transform-style: preserve-3d; 
+}
+
+.flip-card__inner-back {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
