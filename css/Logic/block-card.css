@@ -1,4 +1,4 @@
-/* --> Patron para #McQueen1 */
+/* --> #McQueen1 */
 
 #McQueen1:checked + #McQueen2:not(:checked) ~ #Mate1:checked + #Mate2:not(:checked) ~ .flip-card:not(:nth-of-type(1)):not(:nth-of-type(3)),
 
@@ -44,7 +44,7 @@
 
 
 
-/* --> Patron para #McQueen2 */
+/* --> #McQueen2 */
 
 
 
@@ -94,7 +94,7 @@
 
 
 
-/* --> Patron para #Mate1 */
+/* --> #Mate1 */
 
 
 
@@ -144,7 +144,7 @@
 
 
 
-/* --> Patron para #Mate2 */
+/* --> #Mate2 */
 
 
 
@@ -194,7 +194,7 @@
 
 
 
-/* --> Patron para #Luigi1 */
+/* --> #Luigi1 */
 
 
 
@@ -244,7 +244,7 @@
 
 
 
-/* --> Patron para #Luigi2 */
+/* --> #Luigi2 */
 
 
 
@@ -294,7 +294,7 @@
 
 
 
-/* --> Patron para #Sally1 */
+/* --> #Sally1 */
 
 
 
@@ -344,7 +344,7 @@
 
 
 
-/* --> Patron para #Sally2 */
+/* --> #Sally2 */
 
 
 
@@ -394,7 +394,7 @@
 
 
 
-/* --> Patron para #Guido1 */
+/* --> #Guido1 */
 
 
 
@@ -444,7 +444,7 @@
 
 
 
-/* --> Patron para #Guido2 */
+/* --> #Guido2 */
 
 
 
@@ -494,7 +494,7 @@
 
 
 
-/* --> Patron para #Jackson1 */
+/* --> #Jackson1 */
 
 
 
@@ -544,7 +544,7 @@
 
 
 
-/* --> Patron para #Jackson2 */
+/* --> #Jackson2 */
 
 
 
@@ -594,7 +594,7 @@
 
 
 
-/* --> Patron para #Hicks1 */
+/* --> #Hicks1 */
 
 
 
@@ -644,7 +644,7 @@
 
 
 
-/* --> Patron para #Hicks2 */
+/* --> #Hicks2 */
 
 
 
@@ -694,7 +694,7 @@
 
 
 
-/* --> Patron para #Fillmore1 */
+/* --> #Fillmore1 */
 
 
 
@@ -744,7 +744,7 @@
 
 
 
-/* --> Patron para #Fillmore2 */
+/* --> #Fillmore2 */
 
 
 
