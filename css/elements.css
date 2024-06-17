@@ -12,7 +12,8 @@ body {
     justify-content: space-between;
     background-image: url("../assets/estrellas.png");
     background-color: #e9c97c;
-    height: 100vh;
+    overflow: hidden;
+    height: 100dvh;
     width: 100%;
   }
   

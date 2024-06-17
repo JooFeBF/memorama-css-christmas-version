@@ -1,0 +1,83 @@
+#Maria1:checked + #Maria2:checked ~ .progress-modal--1 {
+  animation: appear 5s forwards;
+}
+#Maria1:checked + #Maria2:checked ~ .progress-modal .progress-modal__covers--maria {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Jose1:checked + #Jose2:checked ~ .progress-modal--2 {
+  animation: appear 5s forwards;
+}
+#Jose1:checked + #Jose2:checked ~ .progress-modal .progress-modal__covers--jose {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Nino-Dios1:checked + #Nino-Dios2:checked ~ .progress-modal--3 {
+  animation: appear 5s forwards;
+}
+#Nino-Dios1:checked + #Nino-Dios2:checked ~ .progress-modal .progress-modal__covers--jesus {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Melchor1:checked + #Melchor2:checked ~ .progress-modal--4 {
+  animation: appear 5s forwards;
+}
+#Melchor1:checked + #Melchor2:checked ~ .progress-modal .progress-modal__covers--melchor {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Gaspar1:checked + #Gaspar2:checked ~ .progress-modal--5 {
+  animation: appear 5s forwards;
+}
+#Gaspar1:checked + #Gaspar2:checked ~ .progress-modal .progress-modal__covers--gaspar {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Baltazar1:checked + #Baltazar2:checked ~ .progress-modal--6 {
+  animation: appear 5s forwards;
+}
+#Baltazar1:checked + #Baltazar2:checked ~ .progress-modal .progress-modal__covers--baltazar {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Pastor1:checked + #Pastor2:checked ~ .progress-modal--7 {
+  animation: appear 5s forwards;
+}
+#Pastor1:checked + #Pastor2:checked ~ .progress-modal .progress-modal__covers--pastor {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+#Mula-Buey1:checked + #Mula-Buey2:checked ~ .progress-modal--8 {
+  animation: appear 5s forwards;
+}
+#Mula-Buey1:checked + #Mula-Buey2:checked ~ .progress-modal .progress-modal__covers--mula-buey {
+  animation: shake-and-dissapear-below 3s forwards;
+}
+
+@keyframes appear {
+  from {
+    visibility: visible;
+  }
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes shake-and-dissapear-below {
+  0% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(10deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  45% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+}
+

@@ -16,4 +16,14 @@
 ~ #Mula-Buey2:checked 
 ~ .win-modal-show {
   display: flex;
+  animation: show-with-opacity 1s;
+}
+
+@keyframes show-with-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
