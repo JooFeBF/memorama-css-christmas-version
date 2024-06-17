@@ -41,16 +41,16 @@
   }
 }
 .memorama-container {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  min-height: 600px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
-    "maria-1 maria-2 jose-1 jose-2"
-    "nino-dios-1 nino-dios-2 melchor-1 melchor-2"
-    "gaspar-1 gaspar-2 baltazar-1 baltazar-2"
-    "pastor-1 pastor-2 mula-buey-1 mula-buey-2"
-  ;
+    "nino-dios-1 maria-2 jose-1 melchor-2"
+    "gaspar-1 baltazar-2 pastor-1 mula-buey-2"
+    "maria-1 jose-2 melchor-1 nino-dios-2"
+    "baltazar-1 gaspar-2 mula-buey-1 pastor-2"
+    ;
   animation: randomize-cards .1s infinite;
+  animation-delay: 1.52s;
 }
 
 .maria-card-1 {
@@ -120,5 +120,46 @@
   animation-play-state: paused;
 }
 #game-randomizer:checked ~ .start-modal{
-  display: none;
+  animation: make-invisible .5s;
+  animation-fill-mode: forwards;
+  animation-delay: .2s;
+}
+#game-randomizer:checked ~ .start-modal .start-button {
+  pointer-events: none;
+  animation: press-button .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes make-invisible {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes press-button {
+  0% {
+    background-color: #f69907;
+    border-bottom: 6px solid #a4660d;
+  }
+  25% {
+    background-color: #a4660d;
+    border-bottom: 4px solid #a4660d;
+  }
+  100% {
+    background-color:#f69907;
+    border-bottom: 4px solid #a4660d;
+  }
+}
+
+@keyframes stop-animation {
+  0% {
+    animation-play-state: running;
+  }
+  100% {
+    animation-play-state: paused;
+  }
 }

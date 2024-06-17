@@ -2,12 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
+html {
+  min-height: 100vh;
+  width: 100%;
+}
 body {
-    background-color: #E7E7E7;
-    min-width: 100%;
-    min-height: 100vh;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../assets/estrellas.png");
+    background-color: #e9c97c;
+    height: 100vh;
+    width: 100%;
   }
   
   p {

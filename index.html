@@ -16,20 +16,22 @@
     <title>Memorama CSS</title>
 </head>
 <body>
-    <nav class="navigator">
-        <div>
-            <h1 class="logo">Memory <span class="game">Game</span></h1>
-        </div>
-        
-        <div>
-            <a class="reset" href="index.html">
-                Resetear Juego
-            </a>
-        </div>
-    </nav>
+    <header class="header">
+        <img src="./assets/BootCamp.png" alt="BootCamp logo">
+        <article class="header__article main-article">
+            <h1 class="main-article__title">Armemos el pesebre de navidad</h1>
+            <p class="main-article__description">Como es tradicion para cada diciembre armamos el pesebre para esperar la
+              llegada del Niño Dios. Presiona cada tarjeta para descubrir un personaje, concentrate y encuentra su
+              pareja, asi revelaras un personaje en el pesebre y descubriras un dato curioso sobre esta tradicion de
+              navidad</p>
+        </article>
+    </header>
     <div>
         <input class="check-box" type="checkbox" id="game-randomizer"/>
-        <label class="start-modal" for="game-randomizer">Haz click para jugar</label>
+        <dialog class="start-modal">
+            <img src="./assets/modal-introNew.png" alt="Letrero armemos el pesebre">
+            <label class="start-button" for="game-randomizer">Comenzar</label>
+        </dialog>
         
         <div class="memorama-container">
             <input class="check-box" type="checkbox" id="Maria1">
@@ -48,107 +50,170 @@
             <input class="check-box" type="checkbox" id="Pastor2">
             <input class="check-box" type="checkbox" id="Mula-Buey1">
             <input class="check-box" type="checkbox" id="Mula-Buey2">
-            <a href="index.html" class="win-modal win-modal-show">Haz ganado, haz click para jugar de nuevo</a>
-            <div class="error-message">Por favor girar las cartas diferentes de nuevo para continuar.</div>
+            <dialog class="win-modal win-modal-show">
+                <div class="win-modal__container">
+                    <img class="win-modal__img" src="./assets/modal/escena-pesebre.png" alt="Escena pesebre">
+                    <main class="win-modal__main">
+                        <h4 class="win-modal__title">Armaste tu pesebre</h4>
+                        <p class="win-modal__p1">Y junto con las esperanza del niño Dios te deseamos de todo corazon que ese regalo que tanto has anhelado llegue a ti</p>
+                        <p class="win-modal__p2">Felices fiestas te desea:</p>
+                        <img class="win-modal__bootcamp-img" src="./assets/BootCamp.png" alt="BootCamp logo">
+                        <a class="win-modal__restart-button" href="./index.html">Volver a intentar</a>
+                    </main>
+                    <footer class="win-modal__footer">
+                        <p class="win-modal__share">Compartir</p>
+                        <img class="win-modal__twitter-img" src="./assets/modal/twitter.svg" alt="twitter logo">
+                        <img class="win-modal__facebook-img" src="./assets/modal/facebook.svg" alt="facebook logo">
+                        <img class="win-modal__linkedin-img" src="./assets/modal/linkedin.svg" alt="linkedin logo">
+                        <img class="win-modal__link-img" src="./assets/modal/link.svg" alt="link logo">
+                    </footer>
+                </div>
+            </dialog>
+            <dialog class="error-message">Por favor girar las cartas diferentes de nuevo para continuar.</dialog>
             <label  class="flip-card maria-card-1" for="Maria1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Maria.jpg" alt="maria"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Maria.png" alt="maria"></div>
                 </div>
             </label>
             <label  class="flip-card maria-card-2" for="Maria2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Maria.jpg" alt="maria"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Maria.png" alt="maria"></div>
                 </div>
             </label>
             <label  class="flip-card jose-card-1" for="Jose1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Jose.jpg" alt="jose"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Jose.png" alt="jose"></div>
                 </div>
             </label>
             <label  class="flip-card jose-card-2" for="Jose2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Jose.jpg" alt="jose"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Jose.png" alt="jose"></div>
                 </div>
             </label>
             <label  class="flip-card nino-dios-card-1" for="Nino-Dios1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Nino-Dios.jpg" alt="nino-dios"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Nino-Dios.png" alt="nino-dios"></div>
                 </div>
             </label>
             
             <label  class="flip-card nino-dios-card-2" for="Nino-Dios2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Nino-Dios.jpg" alt="nino-dios"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Nino-Dios.png" alt="nino-dios"></div>
                 </div>
             </label>
             <label  class="flip-card melchor-card-1" for="Melchor1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Melchor.jpg" alt="melchor"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Melchor.png" alt="melchor"></div>
                 </div>
             </label>
             <label  class="flip-card melchor-card-2" for="Melchor2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Melchor.jpg" alt="melchor"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Melchor.png" alt="melchor"></div>
                 </div>
             </label>
             <label  class="flip-card gaspar-card-1" for="Gaspar1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Gaspar.jpg" alt="gaspar"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Gaspar.png" alt="gaspar"></div>
                 </div>
             </label>
             <label  class="flip-card gaspar-card-2" for="Gaspar2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Gaspar.jpg" alt="gaspar"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Gaspar.png" alt="gaspar"></div>
                 </div>
             </label>
             <label  class="flip-card baltazar-card-1" for="Baltazar1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Baltazar.jpg" alt="baltazar"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Baltazar.png" alt="baltazar"></div>
                 </div>
             </label>
             <label  class="flip-card baltazar-card-2" for="Baltazar2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Baltazar.jpg" alt="baltazar"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Baltazar.png" alt="baltazar"></div>
                 </div>
             </label>
             <label  class="flip-card pastor-card-1" for="Pastor1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Pastor.jpg" alt="pastor"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Pastor.png" alt="pastor"></div>
                 </div>
             </label>
             <label  class="flip-card pastor-card-2" for="Pastor2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Pastor.jpg" alt="pastor"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Pastor.png" alt="pastor"></div>
                 </div>
             </label>
             <label  class="flip-card mula-buey-card-1" for="Mula-Buey1">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Mula-Buey.jpg" alt="mula-buey"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Mula-Buey.png" alt="mula-buey"></div>
                 </div>
             </label>
             <label  class="flip-card mula-buey-card-2" for="Mula-Buey2">
                 <div class="flip-card__inner">
-                    <div class="flip-card__inner-front"></div>
-                    <div class="flip-card__inner-back"><img src="./assets/Mula-Buey.jpg" alt="mula-buey"></div>
+                    <div class="flip-card__inner-front">
+                        <img src="./assets/tarjeta_cubierta.png" alt="card-cover">
+                    </div>
+                    <div class="flip-card__inner-back"><img src="./assets/Mula-Buey.png" alt="mula-buey"></div>
                 </div>
             </label>    
-            
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">Somos</p>
+            <img class="footer__img" src="./assets/BootCamp.png" alt="BootCamp">
+            <p class="footer__text">y te ayudamos a transformar el aprendizaje en experiencias memorables</p>
+        </div>
+        <div class="footer__social">
+            <p class="footer__text">Siguenos</p>
+            <img src="./assets/facebookED.png" alt="facebookED" class="footer__icon">
+            <img src="./assets/instagramED.png" alt="instagramED" class="footer__icon">
+            <img src="./assets/linkedinED.png" alt="linkedinED" class="footer__icon">
+            <p class="footer__contact">Contactanos</p>
+        </div>
+    </footer>
 </body>
 </html>
